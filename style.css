@@ -35,7 +35,7 @@ body {
 /* Utility Styles */
 .container {
     margin-inline: auto;
-    width: 85%;
+    width: min(85%, 300px);
 }
 
 /* Mobile styles */
@@ -66,4 +66,18 @@ p {
     font-size: 1.05rem;
     font-family: 'Outfit', sans-serif;
     margin-block-end: 1rem;
+}
+
+/* Footer styles */
+address {
+    font-style: normal;
+    font-family: 'Outfit', sans-serif;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
