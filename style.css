@@ -30,6 +30,11 @@
 /* Base styles */
 body {
     background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 /* Utility Styles */
@@ -40,7 +45,6 @@ body {
 
 /* Mobile styles */
 main {
-    margin-block: 5rem;
     background-color: var(--white);
     padding: 1rem;
     border-radius: 15px;
@@ -72,6 +76,7 @@ p {
 address {
     font-style: normal;
     font-family: 'Outfit', sans-serif;
+    margin-block-start: 1rem;
 }
 .attribution { 
     font-size: 11px; 
